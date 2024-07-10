@@ -85,6 +85,17 @@ public class module_four {
 			}
 			System.out.println(numbre);
 		}
+		
+		// return & finally
+		for (int i = 0; i < 10; i++) {
+			try {
+				if (i==1)
+					return;
+				System.out.println("try block i= " + i);
+			} finally {
+				System.out.println("finally block i=. " + i);
+			}
+		}
 
 	}
 
